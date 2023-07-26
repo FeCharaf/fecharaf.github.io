@@ -19,7 +19,6 @@ header .header__left p {
 
 header .header__right .header__image {
     position: relative;
-    max-width: 60%;
     line-height: 0;
 }
 
@@ -45,6 +44,21 @@ header .header__right .header__image .felipe {
 header .header__right .header__image .background {
     position: absolute;
     top: -4rem;
-    right: -2.5rem;
+    right: -4rem;
     z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header .header__right .header__image {
+        margin: auto;
+    }
+
+    header .header__left p {
+        margin: 2rem auto 4rem;
+    }
 }
