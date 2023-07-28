@@ -1,5 +1,6 @@
 footer {
     background-color: var(--light-tertiary-color);
+    box-shadow: 1rem 0rem 1rem rgba(0, 0, 0, 0.137);
 }
 
 footer .footer__content {
