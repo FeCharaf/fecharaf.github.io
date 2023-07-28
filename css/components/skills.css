@@ -1,5 +1,6 @@
 .skills {
     background-color: var(--light-tertiary-color);
+    box-shadow: 1rem 0rem 1rem rgba(0, 0, 0, 0.137);
     scroll-margin-top: 15rem;
 }
 
