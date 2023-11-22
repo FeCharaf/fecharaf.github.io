@@ -19,6 +19,7 @@ header .header__left p {
 
 header .header__right .header__image {
     position: relative;
+    max-width: 35rem;
     line-height: 0;
 }
 
